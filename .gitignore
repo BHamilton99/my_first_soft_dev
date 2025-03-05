@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+.DS_Store
+# VS Code
+git commit -m "Removed .DS_Store files and added them to .gitignore"
+git push origin main
