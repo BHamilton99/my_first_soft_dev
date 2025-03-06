@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset
-df = pd.read_csv('Users/bmhknicks/Documents/Projects/data/diabetes_dataset.csv')
+df = pd.read_csv('Data/diabetes_dataset.csv')
 
 # Add a header
 st.header("Diabetes Dataset Analysis")
