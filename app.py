@@ -2,11 +2,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import os
-
-# Debugging: Print current working directory and list files
-st.write("Current working directory:", os.getcwd())
-st.write("Files in current directory:", os.listdir())
 
 # Load the dataset
 df = pd.read_csv('/Users/bmhknicks/Documents/Projects/my_first_soft_dev/Data/diabetes_dataset.csv')
